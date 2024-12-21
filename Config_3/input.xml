@@ -1,0 +1,17 @@
+<config>
+  <constant name="x">10</constant>
+  <constant name="y">5.5</constant>
+  <dictionary name="myDict">
+    <item key="a">100</item>
+    <item key="b">200</item>
+  </dictionary>
+  \ Это однострочный комментарий
+  <value>@[+ x 2]</value>
+  <value>@[- y 1]</value>
+  \ Это однострочный комментарий 2
+  <value>@[+ x 2 pow(2)]</value>
+  <value>hello</value>
+  /+
+  Это многострочный комментарий
+  +/
+</config>
